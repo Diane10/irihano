@@ -283,7 +283,7 @@
           $(this.i).val(this.cv + '%')
         }
       });
-
+// hh
       $this.appear(function() {
         $({
           value: 0
