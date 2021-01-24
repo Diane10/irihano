@@ -1,9 +1,4 @@
-/**
-* Template Name: eBusiness - v2.2.0
-* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 
 @charset "UTF-8";
 /*--------------------------------------------------------------
@@ -899,6 +894,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .slider-content {
   padding: 180px 60px;
+  margin-top: 40px;
 }
 
 .nivo-caption::after {
