@@ -12,6 +12,7 @@
   <!-- Favicons -->
   <link href="assets/img/cropped-Favicon.png" rel="icon">
   <link href="assets/img/cropped-Favicon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900" rel="stylesheet">
@@ -24,6 +25,8 @@
   <link href="assets/vendor/nivo-slider/css/nivo-slider.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -33,162 +36,267 @@
 
 <body  style="font-family: 'Open Sans', sans-serif;" data-spy="scroll" data-target="#navbar-example">
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container d-flex">
-
-      <div class="logo mr-auto">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Shuffle</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="index.html"><img src="assets/img/irihano.png" alt="" class="img-fluid"></a>
-      </div>
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <!-- <li><a href="#portfolio"style="color: black;">Shop</a></li> -->
-            <li><a href="#team">Team</a></li>
-            <li><a href="#clients">Partners</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
-          <li><a href="contact.html">Contact Us</a></li>
-          <li class="buy-tickets"><a href="getquate.html">Get Quate</a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-
+  <header class="header" style="font-family: 'Open Sans', sans-serif;" >
+    <!-- <a href="#" >LOGO</a> -->
+    <div class="logo mr-auto">
+      <a href="index.html"><img src="assets/img/irihano.png" style="height: 50px;width: 150px;margin-left: 40px;" alt="" class="img-fluid"></a>
     </div>
-  </header><!-- End Header -->
+    <nav>
+      <ul class="menu-items">
+        <li><a href="index.html" class="menu-item">HOME</a> </li>
+        
+        <li>
+        <a href="#" class="menu-item">BUSINESS AGENT<i style="padding: 6px;" class="fa fa-chevron-down"></i></a>
+          <div class="mega-menu">
+            <div class="contents">
+              <div class="col">
+                <section>
+                  <a href="#pricing"><h2>|IREMBO AGENT</h2></a>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="pricing.html"><h2>BANK OF KIGALI AGENT</h2></a>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="pricing.html"><h2>MOBICASH AGENT</h2></a>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="pricing.html"><h2>LTE 4G AGENT</h2></a>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="menu-item">IRIHANO ONLINE<i style="padding: 6px;" class="fa fa-chevron-down"></i></a>
+          <div class="mega-menu">
+            <div class="contents">
+              <div class="col">
+                <section>
+                  <h2>Featured 1</h2>
+                  <a href="#" class="img-wrapper"
+                    ><span class="img"
+                      ><img
+                        src="assets/img/4.png"
+                        alt="Random Image" /></span
+                  ></a>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2>FUTURE DYNAMICS INNOVATIONS AGENT</h2>
+                  <ul style="color: black;"class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2>Featured 3</h2>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2>Featured 4</h2>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="#clients" class="menu-item">PATERNERS</a></li>
+        <li><a href="faq.html" class="menu-item">FAQ</a></li>
+        <li>
+          <a href="#" class="menu-item">ABOUT<i style="padding: 6px;" class="fa fa-chevron-down"></i></a>
+          <div class="mega-menu">
+            <div class="contents">
+              <div class="col">
+                <section>
+                   <a href="#"><h2>OUR HISTORY</h2></a>
+                  <p>We are private Technology Firm called” IRIHANO LIMITED” ,our mission is to Help citizens to Apply&Pay Digital Services by working on behalf of Business owners. like E-Government services, Partners to citizens, Business owners. We are Pledged to create a large collaborative with Digital Services Providers [ Partners, Business Persons, or Groups] to act on behalf to serve their clients.</p>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="testimonial.html"><h2>TESTIMONIALS</h2></a>
+                  <ul style="color: black;"class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <!-- <li><a style="color: black;"href="#">Item 4</a></li> -->
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="contact.html"><h2>CONTACT US</h2></a>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <!-- <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li> -->
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <a href="team.html"><h2>TEAM</h2></a>
+                  <ul class="mega-links">
+                    <li><a style="color: black;"href="#">Item 1</a></li>
+                    <li><a style="color: black;"href="#">Item 2</a></li>
+                    <li><a style="color: black;"href="#">Item 3</a></li>
+                    <!-- <li><a style="color: black;"href="#">Item 4</a></li>
+                    <li><a style="color: black;"href="#">Item 5</a></li> -->
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="getquate.html" class="menu-item">REQUEST</a></li>
+        <li><a href="#" class="menu-item">Login</a></li>
 
-
+      </ul>
+    </nav>
+  </header>
+  <!-- ======= Hero Section ======= -->
+  <!-- <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container" data-aos="fade-in">
+      <h1>Welcome to Flexor</h1>
+      <h2>We are team of talanted designers making websites with Bootstrap</h2>
+      <div class="d-flex align-items-center">
+        <i class="bx bxs-right-arrow-alt get-started-icon"></i>
+        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      </div>
+    </div>
+  </section> -->
   
+  <!-- End Hero -->
 
-  <!-- ======= Slider Section ======= -->
-  <div id="home" class="slider-area">
-    <div class="bend niceties preview-2">
-      <div id="ensign-nivoslider" class="slides">
-      <img  src="assets/img/1.jpg" alt="" title="#slider-direction-1" />
-        <img src="assets/img/4.png" alt="" title="#slider-direction-2" />
-        <img src="assets/img/5.jpg" alt="" title="#slider-direction-3" />
-        <img src="assets/img/new3.jpg" alt="" title="#slider-direction-4" />
+  <section id="hero" class="d-flex align-items-center">
 
-      </div>
-
-       <div id="slider-direction-1" class="slider-direction slider-one">
-        <div class="container">
+    <div class="container-fluid" data-aos="zoom-out" data-aos-delay="100" style="background-image: url(assets/img/1.jpg);width: 100%;
+    height: 100vh;background-size: cover;
+    padding-top: 82px;
+   "
+    >
+      <div class="row justify-content-center"style="padding-top: 150px;">
+        <div class="col-xl-10">
           <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">The Best Online services Provider in Rwanda.</h2>
-                </div>
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title2">Welcome to IRIHANO Limited</h1>
-<!--                    -->
-                </div>
-                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
-                  <a class="ready-btn page-scroll" href="getquate.html">Get Quate</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div id="slider-direction-2" class="slider-direction slider-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content text-center">
-                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Go apply and pay digital services today with IRIHANO AGENT.</h2>
-                </div>
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">Better Service. Fast service. Good Delivery</h1>
-                </div>
-                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
-                  <a class="ready-btn page-scroll" href="getquate.html">Get Quate</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- direction 3 -->
-      <div id="slider-direction-3" class="slider-direction slider-two">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <div class="layer-1-1 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">Do you need help  to apply  and  pay digital services? <br/>.
-                  </h2>
-                </div>
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".1s">
-                  <h1 class="title2">We  provide you a good and faster service!
-                    </h1>
-                </div>
-                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
-                  <a class="ready-btn page-scroll" href="getquate.html">Get Quate</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-       <!-- direction 1 -->
-       <div id="slider-direction-4" class="slider-direction slider-one">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-              <div class="slider-content">
-                <div class="layer-1-1 hidden-xs wow animate__slideInDown animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h2 class="title1">We are partnering with digital services providers in Rwanda to satisfy needs of the clients</h2>
-                </div>
-                <div class="layer-1-2 wow animate__fadeIn animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <h1 class="title2">IRIHANO ONLINE Agent</h1>
-                </div>
-                <div class="layer-1-3 hidden-xs wow animate__slideInUp animate__animated" data-wow-duration="2s" data-wow-delay=".2s">
-                  <a class="ready-btn right-btn page-scroll" href="#services">See Services</a>
-                  <a class="ready-btn page-scroll" href="getquate.html">Get Quate</a>
-                </div>
-              </div>
+            <div class="col-xl-5">
+              <h1>Welcome to IRIHANO Limited</h1>
+              <h2>The Best Online services Provider in Rwanda.</h2>
+              <a href="#about" class="btn-get-started scrollto">Contact Us</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  <!-- End Slider -->
 
+  </section><!-- End Hero -->
 
 
   <main id="main">
+
+    <!-- ======= Why Us Section ======= -->
+    <!-- <section id="why-us" class="why-us">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-4 col-lg-5" data-aos="fade-up">
+            <div class="content">
+              <h3>Why Choose Flexor for your company website?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+              </p>
+              <div class="text-center">
+                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-lg-7 d-flex">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-receipt"></i>
+                    <h4>Corporis voluptates sit</h4>
+                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-cube-alt"></i>
+                    <h4>Ullamco laboris ladore pan</h4>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  </div>
+                </div>
+                <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon-box mt-4 mt-xl-0">
+                    <i class="bx bx-images"></i>
+                    <h4>Labore consequatur</h4>
+                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+     -->
+    <!-- End Why Us Section -->
+
+ 
     <!-- ======= About Section ======= -->
-    <div id="about" class="about-area area-padding">
+    <!-- <div id="about" class="about-area area-padding">
       <div class="container">
         <div class="row">
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -198,7 +306,6 @@
           </div>
         </div>
         <div class="row">
-          <!-- single-well start-->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="well-left">
               <div class="single-well">
@@ -208,7 +315,6 @@
               </div>
             </div>
           </div>
-          <!-- single-well end-->
           <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="well-middle">
               <div class="single-well">
@@ -243,10 +349,11 @@
               </div>
             </div>
           </div>
-          <!-- End col-->
         </div>
       </div>
-    </div><!-- End About Section -->
+    </div> -->
+    
+    <!-- End About Section -->
 
     <!-- <section id="services" class="services">
       <div class="container">
@@ -410,170 +517,7 @@
       <br>
       <!-- End Services Section -->
 
-        <!-- ======= Tabs Section ======= -->
-<!--         <section id="tabs" class="tabs" style="">
-          <div class="container" data-aos="fade-up">
-    
-            <ul class="nav nav-tabs row d-flex">
-              <li class="nav-item col-3">
-                <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-                  <i style="background:none; color: #242464;"  class="icofont-chart-bar-graph" aria-hidden="true"></i>
-                  <h4 class="d-none d-lg-block">Online Services</h4>
-                </a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link" data-toggle="tab" href="#tab-2">
-                  <i style="background:none; color: #242464;"  class="icofont-computer" aria-hidden="true"></i>
-                  <h4 class="d-none d-lg-block">Agent Banking</h4>
-                </a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link" data-toggle="tab" href="#tab-3">
-                  <i style="background:none; color: #242464;"  class="fa fa-globe" aria-hidden="true"></i>
-                  <h4 class="d-none d-lg-block">IT Support</h4>
-                </a>
-              </li>
-              <li class="nav-item col-3">
-                <a class="nav-link" data-toggle="tab" href="#tab-4">
-                  <i style="background:none; color: #242464;"  class=" fa fa-bullhorn" aria-hidden="true"></i>
-                  <h4 class="d-none d-lg-block">Computer Traing</h4>
-                </a>
-              </li>
-            </ul>
-    
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                    <h3>E-government  services</h3>
-                    <p>
-                      In 2017, IRIHANO  started  partnership  with Rwanda Telecentre  Network that has been entered in an agreement with Irembo platform Ltd in the relation to the use in the provision of e-government services.
-
-at IRIHANO we  Currently provide irembo service and e-building permit as E-Services.
-
-Dear clients you could join with us in these online services:
-
-
-                    </p>
-                    <ul>
-                      <li><i class="fa fa-check"></i>Irembo services(First)</li>
-                      <li><i class="fa fa-check"></i> RRA Taxes Declaration with other online request at RRA</li>
-                      <li><i class="fa fa-check"></i> Company Registration at RDB</li>
-                      <li><i class="fa fa-check"></i> E-building permit,like refurbishments</li>
-                      <li><i class="fa fa-check"></i> Others….like UR and or RP applications</li>
-                      
-
-
-                    </ul> -->
-                    <!-- <p>
-                      Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                      culpa qui officia deserunt mollit anim id est laborum
-                    </p> -->
-<!--                   </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                    <img src="assets/img/irembo.png" style="width: 300px;height: 200px;" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                    <h3>Digital Payment Official agent</h3>
-                    <p>
-                      In 2019,IRIHANO contracted with Bank of Kigali to work as agent,so at irihano limited.customers could easily pay
-                      <ul>
-                        <li><i class="fa fa-check"></i> Irembo services.</li>
-                        <li><i class="fa fa-check"></i> Deposit</li>
-                        <li><i class="fa fa-check"></i> Send Money(BK send Money)</li>
-                        <li><i class="fa fa-check"></i> cash withdraw</li>
-                        <li><i class="fa fa-check"></i> FDI services</li>
-                      <li><i class="fa fa-check"></i> Opening Email & Sending Email via Internet</li>
-                      <li><i class="fa fa-check"></i> IECMS Services (KOHEREZA IKIREGO MU RUKIKO)
-                      </li>
-                        <li><i class="fa fa-check"></i> Pay Bill like Cashpower, MTN and Airtel/Tigo airtime also we help you to pay RRA Taxes with E-Tax and Mobicash</li>
-                      </ul>  
-                    </p>
-                    <p>
-                      We are  also IKOFI agent  the product of Bank Kigali,
-
-                      IRIHANO is able authorized help people in  these: register, saving money ,Sent and Receive by  using IKOFI  as  agent. Click these on your mobile phone: *334*2#, follow the prompt the call us on +250782761021 to initiate you in IKOFI.
-                    </p>
-                    
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/bk.jpg" alt="" class="img-fluid">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="assets/img/IKOFI.png" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                    <h3>IT Consulting and User Support</h3>
-                    <p>
-                      We keep businesses thriving with managed IT solutions and services by provide on-site expert, friendly technical support to business, home and home office users. Unlike repair shops, we have a strong emphasis on explanation, friendly communication, and training.
-                    </p>
-                 
-
-
-                    <ul>
-                      <li><i class="fa fa-check"></i>Computer maintenance</li>
-                      <li><i class="fa fa-check"></i>Moto vehicle taxes Declaration</li>
-                      <li><i class="fa fa-check"></i>Moto vehicle Transfer declaration</li>
-                      <li><i class="fa fa-check"></i>Tax Clearance Declaration</li>
-                      <li><i class="fa fa-check"></i>Searching TIN by NID</li>
-                      <li><i class="fa fa-check"></i> Software installation, OS, MS Office product(ms office 2007, 2018,others…)</li>
-                      <li><i class="fa fa-check"></i> retails sale of Anti -Virus: Kspersky Anti virus, Internet Security.</li>
-                    </ul>
-                    <p class="font-italic">
-                      Our full time help desk team is at your service when you need them most. We offer remote assistance, on-site visits, and online resources.
-                    </p>
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/techsupport.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                    <h3>IRIHANO Computer Learning Program</h3>
-                    <p>
-                      IRIHANO help you to get basic computer skills, refresher training. Our learners gets 21 centrury tech skills which helps them to find work in a wide variety of  tech industries.
-                    </p>
-                 -->
-                     <!-- <p class="font-italic">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                      magna aliqua.
-                    </p> -->
-<!--                     <ul>
-                      <li><i class="fa fa-check"></i>Teaching computer hardware partse</li>
-                      <li><i class="fa fa-check"></i>Hardware repairing process</li>
-                      <li><i class="fa fa-check"></i>Ms word, Ms Excel, Ms Powerpoint, and Ms publisher</li>
-                      <li><i class="fa fa-check"></i>Internet,and browsers</li>
-                      <li><i class="fa fa-check"></i>Web Design</li>
-                      <li><i class="fa fa-check"></i>Databasse: MYSQL, PHP Admin Ms Access</li>
-                      <li><i class="fa fa-check"></i>Web Development</li>
-
-                    </ul> 
-                  </div>
-                  <div class="col-lg-6 order-1 order-lg-2 text-center">
-                    <img src="assets/img/traings.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-    
-          </div>
-        </section>
-        <br>
-        <br>
-        <br> -->
-
+       
 <!-- ======= Clients Section ======= -->
   
     <!-- End Clients Section -->
@@ -732,359 +676,15 @@ Dear clients you could join with us in these online services:
       </div>
     </div>
 
-    <!-- ======= Team Section ======= -->
-<!--     <div id="team" class="our-team-area area-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Our special Team</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                  <img src="assets/img/ceo.jpg" style="Width: 520px; Height: 413px;" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>NSHIMIYIMANA Emmanuel</h4>
-                <p>Co_Founder</p>
-              </div>
-            </div>
-          </div> -->
+   
 
-          <!-- End column -->
-<!--           <div class="col-md-4 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                  <img src="assets/img/finance.jpg" style="Width: 520px;" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>BAGANINEZA Innocent</h4>
-                <p>Chief of Finance</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- End column -->
-<!--           <div class="col-md-4 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                  <img src="assets/img/diane.jpeg" style="Width: 520px; Height: 413px;" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Tuyizere Diane</h4>
-                <p>Web Developer</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- End column -->
-
-          <!-- <div class="col-md-3 col-sm-3 col-xs-12">
-            <div class="single-team-member">
-              <div class="team-img">
-                <a href="#">
-                  <img src="assets/img/team/4.jpg" alt="">
-                </a>
-                <div class="team-social-icon text-center">
-                  <ul>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-facebook"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i class="fa fa-instagram"></i>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="team-content text-center">
-                <h4>Jhon Powel</h4>
-                <p>Seo Expert</p>
-              </div>
-            </div>
-          </div> -->
-          <!-- End column -->
-        </div>
-      </div>
-    </div><!-- End Team Section -->
-
-    <!-- ======= Rviews Section ======= -->
-    <!-- <div class="reviews-area">
-      <div class="row no-gutters">
-        <div class="col-lg-6 py-0">
-          <img src="assets/img/about/2.jpg" alt="" class="img-fluid">
-        </div>
-        <div class="col-lg-6 work-right-text d-flex align-items-center">
-          <div class="px-5 py-5 py-lg-0">
-            <h2>working with us</h2>
-            <h5>Web Design, Ready Home, Construction and Co-operate Outstanding Buildings.</h5>
-            <a href="#contact" class="ready-btn scrollto">Contact us</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <!-- End Rviews Section -->
+   
 
     <!-- ======= Clients Section ======= -->
 
     
     <!-- End Clients Section -->
-    <!-- ======= Portfolio Section ======= -->
-<!--     <div id="portfolio" class="portfolio-area area-padding fix">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="section-headline text-center">
-              <h2>Our Projects</h2>
-            </div>
-          </div>
-        </div>
-        <div class="row wesome-project-1 fix">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <div class="awesome-menu ">
-              <ul class="project-menu">
-                <li>
-                  <a href="#" class="active" data-filter="*">All</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".development">Development</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".design">Design</a>
-                </li>
-                <li>
-                  <a href="#" data-filter=".photo">Traings</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="row awesome-project-content">
-          <div class="col-md-4 col-sm-4 col-xs-12 design development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/port3.jpeg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/port3.jpeg">
-                      <h4>Coding</h4>
-                      <span>Development</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 photo">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/design3.png" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/design3.png">
-                      <h4>Business Web</h4>
-                      <span>Design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 design">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/port1.jpeg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/port1.jpeg">
-                      <h4>Design</h4>
-                      <span>Web Design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project end -->
-          <!-- single-awesome-project start -->
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/design2.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/design2.jpg">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/traings.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/traings.jpg">
-                      <h4>Learning Support</h4>
-                      <span>Trainees</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/final.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/final.jpg">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4 col-xs-12 photo development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/Man.jpg" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/final.jpg">
-                      <h4>Creative Team</h4>
-                      <span>Web design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project start -->
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 development">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/Web1.jpeg" alt="" /></a>
-                <div class="add-actions text-center text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/Web1.jpeg">
-                      <h4>Beautiful platform</h4>
-                      <span>Web Development</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project start -->
-<!--           <div class="col-md-4 col-sm-4 col-xs-12 design photo">
-            <div class="single-awesome-project">
-              <div class="awesome-img">
-                <a href="#"><img src="assets/img/design1.png" alt="" /></a>
-                <div class="add-actions text-center">
-                  <div class="project-dec">
-                    <a class="venobox" data-gall="myGallery" href="assets/img/design1.png">
-                      <h4>Creative Team</h4>
-                      <span>Design</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- single-awesome-project end -->
-<!--         </div>
-      </div>
-    </div> -->
-<!-- End Portfolio Section -->
+   
   
     <!-- ======= Pricing Section ======= -->
     <div id="pricing" class="pricing-area area-padding">
@@ -1167,13 +767,12 @@ Dear clients you could join with us in these online services:
     </div><!-- End Pricing Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <div class="testimonials-area">
+    <div id= "testimonials"class="testimonials-area">
       <div class="testi-inner area-padding">
         <div class="testi-overly"></div>
         <div class="container ">
           <div class="row">
             <div class="col-md-12 col-sm-12 col-xs-12">
-              <!-- Start testimonials Start -->
               <div class="testimonial-content text-center">
                 <a class="quate" href="#"><i class="fa fa-quote-right"></i></a>
                 <!-- start testimonial carousel -->
@@ -1214,7 +813,7 @@ Dear clients you could join with us in these online services:
     </div><!-- End Testimonials Section -->
 
     <!-- ======= Blog Section ======= -->
-<!--     <div id="blog" class="blog-area">
+    <!-- <div id="blog" class="blog-area">
       <div class="blog-inner area-padding">
         <div class="blog-overly"></div>
         <div class="container ">
@@ -1252,12 +851,10 @@ Dear clients you could join with us in these online services:
                 <span>
                   <a href="#" class="ready-btn">Read more</a>
                 </span>
-              </div> -->
-              <!---Start single blog--->
+              </div>
             </div>
-            <!-- End Left Blog-->
-            <!-- Start Left Blog -->
-<!--             <div class="col-md-4 col-sm-4 col-xs-12">
+           
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
                   <a href="blog.html">
@@ -1284,10 +881,8 @@ Dear clients you could join with us in these online services:
                   <a href="#" class="ready-btn">Read more</a>
                 </span>
               </div>
-            </div> -->
-            <!-- End Left Blog-->
-            <!-- Start Right Blog-->
-<!--             <div class="col-md-4 col-sm-4 col-xs-12">
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-12">
               <div class="single-blog">
                 <div class="single-blog-img">
                   <a href="blog.html">
@@ -1317,15 +912,12 @@ Dear clients you could join with us in these online services:
                 </span>
               </div>
             </div>
-            <!-- End Right Blog-->
-<!--           </div>
+          </div>
         </div>
       </div>
-    </div>  -->
-<!-- End Blog Section -->
+    </div> -->
 
-  
-    <!-- End Clients Section -->
+   
 <!-- =======  F.A.Q Section ======= -->
 <section id="faq" style="background-color: #f9f9f9;">
 
@@ -1384,6 +976,106 @@ Dear clients you could join with us in these online services:
   </div>
 
 </section><!-- End  F.A.Q Section -->
+  
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="contact-area">
+      <div class="contact-inner area-padding">
+        <div class="contact-overly"></div>
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="section-headline text-center">
+                <h2>Contact us</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Start contact icon column -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="fa fa-mobile"></i>
+                  <p>
+                    Call: +250782761021 <br>
+                    <span>Monday-Friday (9am-5pm)</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="fa fa-envelope-o"></i>
+                  <p>
+                    Email: info@irihano.co.rw<br>
+                    <span>IRIHANO.RW or IRIHANO.CO.RW</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- Start contact icon column -->
+            <div class="col-md-4 col-sm-4 col-xs-12">
+              <div class="contact-icon text-center">
+                <div class="single-icon">
+                  <i class="fa fa-map-marker"></i>
+                  <p>
+                    Location: MUHANGA-Nyamabuye<br>
+                    Muhanga-Kigali, National Road<br>
+                    <span>Rwanda, Southern Province</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+
+            <!-- Start Google Map -->
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <!-- Start Map -->
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14270.486768287554!2d29.775149087954574!3d-2.0724606963674534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19dcca069bdd9737%3A0x7b43e570103a0bc1!2sNyamabuye!5e0!3m2!1sen!2srw!4v1611147882952!5m2!1sen!2srw" width="100%" height="380" frameborder="0" style="border:0;" allowfullscreen></iframe>
+              <!-- End Map -->
+            </div>
+            <!-- End Google Map -->
+
+            <!-- Start  contact -->
+            <div class="col-md-6 col-sm-6 col-xs-12">
+              <div class="form contact-form">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validate"></div>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validate"></div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message"></div>
+                  </div>
+                  <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+              </div>
+            </div>
+            <!-- End Left contact -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Contact Section -->
+
+  </main><!-- End #main -->
     <!-- ======= Suscribe Section ======= -->
     <div class="suscribe-area">
       <div class="container">
@@ -1398,35 +1090,33 @@ Dear clients you could join with us in these online services:
         </div>
       </div>
     </div><!-- End Suscribe Section -->
-  <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
+ <!-- ======= Clients Section ======= -->
+ <section id="clients" class="clients">
+  <div class="container" data-aos="zoom-in">
 
-        
-          <div class="section-headline text-center">
-            <h2>Partners</h2>
-          </div>
-      
-
-        <div class="owl-carousel clients-carousel">
-          <img src="assets/img/irembo1.JPG" alt="">
-          <img src="assets/img/bk.jpg" alt="">
-<!--           <img src="assets/img/IKOFI.png" alt=""> -->
-          <img src="assets/img/FDIlogo.png" alt="">
-          <img src="assets/img/mobicash.png" alt="">
-          <img src="assets/img/RRA2.png" alt="">
-          <img src="assets/img/Ebuilding.png" alt="">
-          <img src="assets/img/IKOF.png" alt="">
-<!--           <img src="assets/img/canal.jpg" alt=""> -->
-<!--           <img src="assets/img/rssb.jpg" alt=""> -->
-<!--           <img src="assets/img/ejoheza.jpg" alt=""> -->
-<!--           <img src="assets/img/startime.jpg" alt=""> -->
-        </div>
-
+    
+      <div class="section-headline text-center">
+        <h2>Partners</h2>
       </div>
-    </section>
-  </main><!-- End #main -->
+  
 
+    <div class="owl-carousel clients-carousel">
+      <img src="assets/img/irembo1.JPG" alt="">
+      <img src="assets/img/bk1.png" alt="">
+<!--           <img src="assets/img/IKOFI.png" alt=""> -->
+      <img src="assets/img/FDIlogo.png" alt="">
+      <img src="assets/img/mobicash.png" alt="">
+      <img src="assets/img/RRA2.png" alt="">
+      <img src="assets/img/Ebuilding.png" alt="">
+      <img src="assets/img/IKOF.png" alt="">
+<!--           <img src="assets/img/canal.jpg" alt=""> -->
+      <!-- <img src="assets/img/ejoheza.jpg" alt=""> -->
+<!--           <img src="assets/img/startime.jpg" alt=""> -->
+    </div>
+
+  </div>
+</section>
+<!-- End Clients Section -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
